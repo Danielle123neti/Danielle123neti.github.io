@@ -1,0 +1,135 @@
+body {
+    background-image: url("../img/4.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#header{
+    text-shadow: 4px 4px 8px #000000;  
+    text-align: center;
+    border-radius: 25px;
+    /*background:linear-gradient(to bottom, #999966 0%, #666699 89%);*/
+    background-color: #333;
+    padding: 20px; 
+    width: 100%
+    height: 150px;
+    border: 1px solid #ddd;
+}
+#header p{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 100px;
+    color: #1f2e2e;
+}
+div {
+    box-shadow: 8px 8px 16px #8c8c8c;
+
+}
+  
+.row {
+    /*font-family: 'Rajdhani', sans-serif;*/
+    font-family: 'Fjalla One', sans-serif;
+    color:#c2c2d6;
+    text-shadow: 4px 4px 8px #000000;   
+}
+img {
+  border-radius: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+
+}
+#hh, #kk {
+      border: 1px solid #ddd;
+      margin-right: 5px; 
+      border-radius: 10px;
+      background-color: #333;
+      text-align: center;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block ;
+    color:  white ;
+    text-align: center;
+    padding: 14px  16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover, .dropdown:hover .dropbtn {
+    border-style: inset;
+    padding: 0px;
+    transition: 2s;
+    color: #009999;
+    background-color: #111;
+}
+li .dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #9fbfdf;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+}
+.dropdown-content a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:left;
+    border-radius: 10px; 
+}
+.dropdown-content a:hover {background-color: #f1f1f1f1}
+.dropdown:hover .dropdown-content {display: block;
+}
+h4,h3 {
+    font-family: 'Rajdhani', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+h1{
+    color: #ffffff ;
+    font-family: 'Rajdhani', sans-serif;
+    text-shadow: 8px 8px 32px #ffffff;
+    background:rgba(0,0,0,0.5);
+
+}
+
+#par{
+    background-image: url("../img/b1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#upper {
+    color: #ffffff;
+    font-family: 'Rajdhani', sans-serif;
+}
+#d {
+    color: #ffffff ;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    text-shadow: 8px 8px 32px #ffffff;
+    background:rgba(0,0,0,0.5);
+    
+}
+footer {
+  background-color: #333;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  
+}
